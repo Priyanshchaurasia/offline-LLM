@@ -1,0 +1,20 @@
+# Weights & base model
+*.gguf
+deepseek-coder-1.3b/
+
+# Data
+coding_dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+.venv/
+venv/
+env/
+
+# Misc
+.DS_Store
+*.log
