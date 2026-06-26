@@ -1,0 +1,8 @@
+FROM C:/Users/priya/OneDrive/Desktop/ONGC/coding-model.gguf
+
+SYSTEM """You are an expert coding assistant. You only help with programming and software development tasks. You write clean, efficient, well-commented code."""
+
+PARAMETER temperature 0.2
+PARAMETER top_p 0.95
+PARAMETER repeat_penalty 1.1
+PARAMETER num_ctx 2048
